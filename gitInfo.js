@@ -37,7 +37,7 @@ const gitHubDefinition ="GitHub is an online git repository hosting service, all
 const init = {
     description: "Creates an empty Git repository in the current directory",
     code: "git init"
-}
+};
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -45,7 +45,10 @@ const init = {
 */
 
 //CODE HERE
-
+const clone = {
+    description: "Clones on existing remote repo into a new directory",
+    code: "git clone remote_location new_dir_name"
+};
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
