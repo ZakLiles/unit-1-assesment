@@ -10,6 +10,7 @@ colorCopy = faveColors.slice();
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+colorCopy.push('blue');
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -20,8 +21,8 @@ colorCopy = faveColors.slice();
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-
-
+middleNums = numbers.slice(1,4)
+console.log(middleNums)
 //////////////////PROBLEM 4////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
