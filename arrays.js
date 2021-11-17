@@ -22,7 +22,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
 middleNums = numbers.slice(1,4)
-console.log(middleNums)
+
 //////////////////PROBLEM 4////////////////////
 /* 
   Create a function called 'bigOrSmall' that takes in one parameter, 'arr', 
@@ -37,3 +37,18 @@ console.log(middleNums)
 */
 
 // CODE HERE
+function bigOrSmall(arr){
+  answers=[];
+  for(i = 0; i < arr.length; i++){
+    if(arr[i] > 100){
+      answers.push('big')
+    } else {
+      answers.push('small')
+    }
+  }
+  return answers;
+}
+//TEST CODE
+// testArr=[43,58,23,584,34289,3,38,3892,2893,43];
+// testAnswers=bigOrSmall(testArr)
+// console.log(testAnswers)
