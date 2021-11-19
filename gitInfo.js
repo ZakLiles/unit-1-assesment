@@ -59,7 +59,7 @@ const clone = {
 const status = {
     description: "Displays the status of the current working directory. Shows which files aren't being tracked, changes that have been staged and changes that haven't been staged.",
     code: "git status"
-}
+};
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -67,7 +67,10 @@ const status = {
 */
 
 //CODE HERE
-
+const add = {
+    description: "Adds a file to the staging area in preparation for a commit",
+    code: "git add file_name"
+};
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
