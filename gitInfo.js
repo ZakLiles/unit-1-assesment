@@ -78,7 +78,10 @@ const add = {
 */
 
 //CODE HERE
-
+const commit ={
+    description: "Permanently transfers changes from the staging area to the repository",
+    code: 'git commit -m "Log message"'
+};
 
 //////////////////PROBLEM 8////////////////////
 /*
