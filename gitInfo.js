@@ -90,3 +90,7 @@ const commit ={
 */
 
 //CODE HERE
+const push = {
+    description: "Uploads local repository to a remote repository.",
+    code: "git push REPLACE_WITH_REMOTE_NAME main/master"
+};
